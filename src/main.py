@@ -9,10 +9,10 @@ driver.get('https://instagram.com')
 time.sleep(2)
 
 username_field = driver.find_element_by_xpath('//*[@id="react-root"]/section/main/article/div[2]/div[1]/div/form/div[2]/div/label/input')
-username_field.send_keys('im___safwan')
+username_field.send_keys('Your username')
 
 password_field = driver.find_element_by_xpath('//*[@id="react-root"]/section/main/article/div[2]/div[1]/div/form/div[3]/div/label/input')
-password_field.send_keys('#safwan789')
+password_field.send_keys('Your password')
 
 time.sleep(1)
 
